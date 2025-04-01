@@ -45,14 +45,14 @@ let aluno = {
   notaFinal: 8
 };
 
-  let status;
+  let status1;
   if (aluno.notaFinal >= 7) {
-    status = "Aprovado";
+    status1 = "Aprovado";
   }else{
-    status = "Reprovado";
+    status1 = "Reprovado";
   }
 
-  console.log(`O aluno ${aluno.nome} cursa ${aluno.curso} e está ${status} com nota final de ${aluno.notaFinal}.`);
+  console.log(`O aluno ${aluno.nome} cursa ${aluno.curso} e está ${status1} com nota final de ${aluno.notaFinal}.`);
 
 // Crie um array usuarios contendo três objetos com nome, idade e email. Percorra a lista e exiba uma mensagem para cada usuário no seguinte formato:
 

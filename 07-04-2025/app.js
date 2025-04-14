@@ -4,7 +4,7 @@
 //    console.log(sum)
 // }
 
-// //* Eron fuction
+// //* Arrow fuction
 // const returnSub = (a, b) => {
 //     let sub = a - b
 //     console.log(sub)
